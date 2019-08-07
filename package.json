@@ -1,31 +1,30 @@
 {
-  "name": "countdown-timer",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+      "name": "test-countdown-timer",
+      "version": "1.0.0",
+      "description": "A React library used to countdown time",
+      "main": "dist/countdown.min.js",
+      "scripts": {
+            "build": "rollup -c -o dist/countdown.min.js",
+            "test": "echo \"Error: no test specified\" && exit 1"
+      },
+      "repository": {
+            "type": "git",
+            "url": "git+https://github.com/philipszdavido/countdown-timer.git"
+      },
+      "keywords": [],
+      "author": "Chidume Nnamdi <kurtwanger40@gmail.com>",
+      "license": "ISC",
+      "bugs": {
+            "url": "https://github.com/philipszdavido/countdown-timer/issues"
+      },
+      "homepage": "https://github.com/philipszdavido/countdown-timer#readme",
+      "devDependencies": {
+            "@babel/core": "^7.5.5",
+            "@babel/preset-env": "^7.5.5",
+            "@babel/preset-react": "^7.0.0",
+            "react": "^16.3.2",
+            "rollup": "^1.19.3",
+            "rollup-plugin-babel": "^4.3.3",
+            "rollup-plugin-uglify": "^6.0.2"
+      }
 }
